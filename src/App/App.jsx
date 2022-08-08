@@ -1,6 +1,6 @@
 import { Header } from './layout/header/Header'
+import { Main } from './layout/main/Main'
 import './App.css'
-import { Main } from './layout/main/main'
 
 
 function App() {

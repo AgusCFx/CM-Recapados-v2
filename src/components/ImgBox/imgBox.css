@@ -1,0 +1,10 @@
+.imgBoxContainer{
+    clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 10% 100%, 0 90%);
+    background-color: rgb(255, 255, 255);
+    padding: 3px;
+    
+}
+.imgBoxContainer,
+.imgBox__img{
+    clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 10% 100%, 0 90%);
+}
