@@ -1,0 +1,31 @@
+.textBoxContainer{
+    position: relative;
+    background: rgba(255, 255, 255, 0.13);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+.textBox__frameA,
+.textBox__frameB {
+    position: absolute;
+    margin: 10px;
+    background-color: var(--CyanCM);
+    height: 40%;
+    width: 66%;
+}
+.textBox__frameA{
+    top: 0;
+    left: 0;
+    clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 10px, 10px 10px, 10px calc(100% - 10px), 0 100%);
+}
+.textBox__frameB{
+    bottom: 0;
+    right: 0;
+    clip-path: polygon(0 100%, 10px calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) 10px, 100% 0, 100% 100%);}
+
+/* from debug */
+.textBoxContainer p{
+    padding: 30px;
+    font-size: 2rem;
+}

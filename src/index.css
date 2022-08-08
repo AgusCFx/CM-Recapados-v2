@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'PodkovaBold';
+  src: local('PodkovaBold'), url(./assets/fonts/podkova.bold.ttf)
+}
+@font-face {
+  font-family: 'PodkovaRegular';
+  src: local('PodkovaRegular'), url(./assets/fonts/podkova.regular.ttf)
+}
+html{
+  color: white;
+  --CyanCM: #109BD6;
+  background-color: black;
+}
