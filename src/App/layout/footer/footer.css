@@ -1,0 +1,18 @@
+/* footer shape */
+footer{
+    margin-top: 40px;
+    background-color: var(--CyanCM);
+    clip-path: polygon(10% 0, 90% 0, 100% 100%, 0 100% );
+}
+/* footer text */
+.footer__contact,
+.footer__ubication{
+    text-align: center;
+    font-family: 'PodkovaRegular', sans-serif;
+} 
+.footer__contact{
+    padding-top: 30px;
+}
+.footer__ubication{
+    padding: 30px;
+}
