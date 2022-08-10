@@ -5,7 +5,7 @@ export const TextBox = ({textTitle, textDesc}) => {
       <div className="textBoxContainer">
         <div className="textBox__frameA" />
         <div className="textBox__frameB" />
-        <h2>{textTitle}</h2>
+        {textTitle && <h2>{textTitle}</h2>}
         <p>{textDesc}</p>
     </div>
   )

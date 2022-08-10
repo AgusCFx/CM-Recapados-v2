@@ -1,4 +1,7 @@
 .textBoxContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 30px;
     position: relative;
     background: rgba(255, 255, 255, 0.05);
@@ -24,14 +27,13 @@
     right: 0;
     clip-path: polygon(0 100%, 10px calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) 10px, 100% 0, 100% 100%);}
 
-/* from debug */
 .textBoxContainer p,
 .textBoxContainer h2{
-    padding: 30px;
+    font-family: 'PodkovaRegular', sans-serif;
+    text-align: center;
+    margin: 40px 0;
+    padding: 0 10%;
 }
 .textBoxContainer h2{
-    text-align: center;
-}
-.textBoxContainer p{
-    padding-top: 0;
+    margin-bottom: 0;
 }

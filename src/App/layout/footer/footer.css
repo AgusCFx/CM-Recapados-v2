@@ -9,6 +9,7 @@ footer{
 .footer__ubication{
     text-align: center;
     font-family: 'PodkovaRegular', sans-serif;
+    line-height: 2rem;
 } 
 .footer__contact{
     padding-top: 30px;

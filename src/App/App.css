@@ -3,6 +3,7 @@ body{
   min-width: 375px;
   max-width: 1440px;
   background-image: url(./../assets/images/hexagonsWallpaper.jpg);
+  background-attachment: fixed;
   background-repeat: repeat-y;
   background-position: center;
   background-size: cover;

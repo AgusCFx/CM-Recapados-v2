@@ -1,3 +1,9 @@
+.sectionHome{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 /* Button */
 .catalogoBtn{
     margin: 20px auto;
@@ -8,16 +14,17 @@
     padding: 20px;
     display: flex;
     justify-content: center;
-    border-radius: 30px;
+    border-radius: 50px;
     font-family: 'PodkovaBold', sans-serif;
-    font-size: 3rem;
+    font-size: clamp(1.2rem, 5vw, 3rem);
+    /* line-height: 1rem; */
     cursor: pointer;
 }
 .downloading {
     width: 30px;
     height: 32px;
     margin: auto 0;
-    margin-right: 15px;
+    margin-right: 20px;
     position: relative;
     overflow: hidden;
 }
@@ -81,5 +88,19 @@
   100% {
     top: 0;
     opacity: 1;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  /* Home Section */
+  .sectionHome{
+    flex-direction: row;
+  }
+  /* Catalogue Section */
+  .catalogoBtn{
+    border-radius: 30px;
+  }
+  .downloading{
+    margin-right: 20px;
   }
 }
