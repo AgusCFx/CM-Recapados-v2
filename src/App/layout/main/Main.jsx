@@ -5,10 +5,10 @@ import './main.css'
 
 import CataloguePDF from "./../../../assets/pdf/Catalogo_CM_RecapadosV8.1.pdf"
 
-import RepartoImgDesk from "../../../assets/images/reparto-desk.jpg"
-import RepartoImgMobile from "../../../assets/images/reparto-mobile.jpg"
-import CatalogoImgDesk from "../../../assets/images/catalogo-desk.jpg"
-import CatalogoImgMobile from "../../../assets/images/catalogo-mobile.jpg"
+import RepartoImgDesk from "../../../assets/images/reparto-desk.avif"
+import RepartoImgMobile from "../../../assets/images/reparto-mobile.avif"
+import CatalogoImgDesk from "../../../assets/images/catalogo-desk.avif"
+import CatalogoImgMobile from "../../../assets/images/catalogo-mobile.avif"
 
 export const Main = () => {
   return (
@@ -24,7 +24,8 @@ export const Main = () => {
             textDesc='Servicio de reparacion, recapado, recauchutado, reconstruccion, rellenado... damos nueva vida a tus neumaticos para que siga manteniendo el rendimiento más optimo posible.'/>
           <ImgBox 
             imgDesk={RepartoImgDesk}
-            imgMobile={RepartoImgMobile} />
+            imgMobile={RepartoImgMobile}
+            alte='Camioneta de reparto de recapados'/>
         </section>
 
         {/* Catalogue Section */}
@@ -33,7 +34,8 @@ export const Main = () => {
             textDesc='Amplia gama de bandas especificas para distintas medidas, podes elegir del catalogo el que más se adapta a tus necesidades.'/>
           <ImgBox 
             imgDesk={CatalogoImgDesk}
-            imgMobile={CatalogoImgMobile} />
+            imgMobile={CatalogoImgMobile}
+            alte='Bandas recapadas' />
           <a href={CataloguePDF} download="Catalogo CM" className='catalogoBtn'>
             <div class="downloading">
               <span class="custom-arrow"></span>
